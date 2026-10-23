@@ -1,0 +1,87 @@
+
+/* Background */
+body {
+    background-color: #F6EBDD;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 38px;
+    border-bottom: 1px solid #D9CBBF;
+}
+
+/* Logo and name */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: #56332d;
+}
+
+/* Logo image */
+.brand img {
+    width: 48px;
+    height: 48px;
+}
+
+/* Website name */
+.brand-name {
+    font-size: 36px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-links a {
+    color: #5b8a63;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+
+
+#first {
+    margin: 64px 38px 0;
+    color: #5b8a63;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+/* Main heading */
+#front-heading {
+    margin: 48px 38px 0;
+    color: #56332d;
+    font-size: 64px;
+    font-weight: normal;
+    text-align: left;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
