@@ -1,19 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 
-/* Background */
 body {
-    background-color: #F6EBDD;
     margin: 0;
+    background-color: #F6EBDD;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 /* Navigation bar */
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
     padding: 24px 38px;
     border-bottom: 1px solid #D9CBBF;
 }
+
 
 /* Logo and name */
 .brand {
@@ -35,17 +42,19 @@ body {
     font-size: 36px;
 }
 
+
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 30px;
 }
 
 .nav-links a {
-    color: #5b8a63;
+    color: #887569;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 22px;
 }
+
 
 
 
